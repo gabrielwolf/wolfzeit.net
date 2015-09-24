@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200);
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background: #2f4461 url('../images/unter-den-wolken-small.jpg') center bottom no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+body {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-family: "Titillium Web", Arial, Tahoma, Sans;
+    font-size: 16px;
+}
+
+header {
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+    display: none;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+
+    
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin: 0 auto 5% auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+    border: 1ex solid transparent;
+}
+
+p { margin-bottom: 0; }
+
+/* Retina Display */
+
+@media  (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-retina.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1921px) {
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-big.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+    body { font-size: 20px; }
+    img { width: 500px; }
+    header {
+        width: 70%;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-big.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+    body { font-size: 20px; }
+    img { width: 450px; }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-big.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+    img { width: 400px; }
+    body { font-size: 20px; }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-small.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+    body { font-size: 18px; }
+    img { width: 400px; margin-bottom: 5%; }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    html {
+        background: #2f4461 url('../images/unter-den-wolken-small.jpg') center bottom no-repeat;
+        background-size: cover;
+    }
+    body { font-size: 16px; }
+    img { width: 100%; margin-bottom: 6%; }
+    ul { margin-bottom: 10%}
+}
