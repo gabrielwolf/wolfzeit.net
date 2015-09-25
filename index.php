@@ -6,17 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>W O L F Z E I T.net</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<link rel="stylesheet" href="styles/main.css">
-    <script> 
-        var $buoop = {c:2}; 
-        function $buo_f(){ 
-         var e = document.createElement("script"); 
-         e.src = "//browser-update.org/update.min.js"; 
-         document.body.appendChild(e);
-        };
-        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-        catch(e){window.attachEvent("onload", $buo_f)}
-    </script>
+    <?php if(strstr($_SERVER['HTTP_USER_AGENT'], 'Safari') && !strstr($_SERVER['HTTP_USER_AGENT'], 'Chrome')) { ?>
+        <link rel="stylesheet" href="styles/safari.css">
+    <?php } else { ?>
+        <link rel="stylesheet" href="styles/main.css">
+    <?php } ?>
 </head>
 
 <body>
@@ -27,11 +21,13 @@
   </div>
 <![endif]-->
 
-
-
     <header>
         <h1>W O L F Z E I T.net</h1>
-        <img src="images/logo-wolfzeit-net.svg" onerror="this.onerror=null; this.src='images/logo-wolfzeit-net.png'" title="W O L F Z E I T.net" />
+        <?php if(strstr($_SERVER['HTTP_USER_AGENT'], 'Safari') && !strstr($_SERVER['HTTP_USER_AGENT'], 'Chrome')) { ?>
+            <img src="images/logo-wolfzeit-net.png" title="W O L F Z E I T.net" />
+        <?php } else { ?>
+            <img src="images/logo-wolfzeit-net.svg" onerror="this.onerror=null; this.src='images/logo-wolfzeit-net.png'" title="W O L F Z E I T.net" />
+        <?php } ?>
         <ul>
             <li><a href="http://ecrug.wolfzeit.net" title="Archiv älterer Kunst">ecrug</a></li>
             <li><a href="http://der-herr-pianist.de" title="Meine Leidenschaft">der-herr-pianist.de</a></li>
