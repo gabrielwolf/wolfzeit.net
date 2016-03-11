@@ -30,11 +30,9 @@
         <?php } ?>
         <ul>
             <li><a href="http://ecrug.wolfzeit.net" title="Archiv älterer Kunst">ecrug</a></li>
-            <li><a href="http://der-herr-pianist.de" title="Meine Leidenschaft">der-herr-pianist.de</a></li>
+            <li><a href="http://www.der-herr-pianist.de" title="Meine Leidenschaft">der-herr-pianist.de</a></li>
             <li><a href="http://www.wolfzeit.com" title="Meine Selbständigkeit">wolfzeit.com</a></li>
-            <li><a href="http://www.meerkat-web.tk" title="Poesie">meerkat</a></li>
             <li><a href="http://enjian.wolfzeit.net" title="Ein Endzeit-Hörspiel-Album">enjian</a></li>
-
         </ul>
         <p>Space for projects of <a href="http://www.gabriel-wolf.de">Gabriel&nbsp;Wolf</a>.</p>
     </header>
