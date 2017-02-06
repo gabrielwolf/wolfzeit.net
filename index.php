@@ -30,7 +30,8 @@
         <?php } ?>
         <ul>
             <li><a href="http://www.der-herr-pianist.de" title="Meine Leidenschaft">der-herr-pianist.de</a></li>
-            <li><a href="http://www.wolfzeit.com" title="Meine Selbständigkeit">wolfzeit.com</a></li>
+            <li><a href="https://www.blauestunde.photo" title="Meine Leidenschaft">blauestunde.photo</a></li>
+            <li><a href="https://www.wolfzeit.com" title="Meine Selbständigkeit">wolfzeit.com</a></li>
         </ul>
         <p>Space for projects of Gabriel&nbsp;Wolf.</p>
     </header>
