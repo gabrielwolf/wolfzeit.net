@@ -28,12 +28,14 @@
         <?php } else { ?>
             <img src="https://wolfzeit.net/home/images/logo-wolfzeit-net.svg" onerror="this.onerror=null; this.src='https://wolfzeit.net/home/images/logo-wolfzeit-net.png'" title="W O L F Z E I T.net" />
         <?php } ?>
+<!--
         <ul>
             <li><a href="http://www.der-herr-pianist.de" title="Meine Leidenschaft">der-herr-pianist.de</a></li>
             <li><a href="https://www.blauestunde.photo" title="Meine Leidenschaft">blauestunde.photo</a></li>
             <li><a href="https://www.wolfzeit.com" title="Meine Selbständigkeit">wolfzeit.com</a></li>
         </ul>
-        <p>Space for projects of Gabriel&nbsp;Wolf.</p>
+-->
+        <p>Server down for maintenance.</p>
     </header>
 </body>
 
